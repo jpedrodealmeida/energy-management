@@ -1,6 +1,37 @@
 .title-card-structure{
     display: grid;
+    width: 74%;
+}
+.body-card-structure{
+    width: 74%;
 }
 .button-structure{
     text-align: end;
+}
+.up-value{
+    display: grid;
+    grid-template-columns: 10% 90%;
+ 
+}
+.label-data{
+    align-self: center;
+}
+.input-up-value{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 14px;
+    /* width: 74%; */
+}
+.input-structure{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 28px;
+}
+.line-result{
+    height: 8px;
+    background-color: #00FFFA;
+    border-radius: 8px;
+}
+.button-graphic{
+    margin-top: 20px;
 }
