@@ -8,8 +8,10 @@ import Graphics from './components/graphics/Graphics';
 function App() {
   return (
     <div className="App">
-      <MainPainel />
-      <UserProfile />
+      <div className="painel-structure">
+        <MainPainel />
+        <UserProfile />
+      </div>
       <Graphics />
     </div>
   );

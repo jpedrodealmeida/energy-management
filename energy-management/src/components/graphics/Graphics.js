@@ -1,4 +1,9 @@
 import React, {Component} from 'react'
+
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+
+
 import './Graphics.css'
 
 class Graphics extends Component{
@@ -8,13 +13,18 @@ class Graphics extends Component{
         this.state = {
             name: ''
         }
+
     }
 
     render(){
         return (
-            <div>
-                <span>Graphics Works!!!</span>
-            </div>
+            <Card>
+                <CardContent>
+                    <div>
+                        <span>Graphics Works!!!</span>
+                    </div>
+                </CardContent>
+            </Card>
         );
     }
 

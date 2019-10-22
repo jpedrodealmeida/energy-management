@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin: 50px;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .App-logo {
@@ -19,4 +22,11 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+/*Custom CSS*/
+.painel-structure{
+  display: grid;
+  grid-template-columns: 65% 30%;
+  grid-gap: 5%;
 }

@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+
 import './UserProfile.css';
 
 class UserProfile extends Component{
@@ -13,9 +16,13 @@ class UserProfile extends Component{
 
     render(){
         return(
-            <div>
-                <span>User Profile Works!!!</span>
-            </div>
+            <Card>
+                <CardContent>
+                    <div>
+                        <span>Main Painel Works!!!</span>
+                    </div>
+                </CardContent>
+            </Card>
         );
     }
 }
