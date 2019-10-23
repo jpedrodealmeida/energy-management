@@ -1,9 +1,9 @@
 .title-card-structure{
     display: grid;
-    width: 74%;
+    width: 100%;
 }
 .body-card-structure{
-    width: 74%;
+    width: 100%;
 }
 .button-structure{
     text-align: end;

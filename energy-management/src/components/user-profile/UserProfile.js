@@ -12,14 +12,27 @@ class UserProfile extends Component{
         this.state = {
 
         }
+        this.userPhoto = {
+            url: 'http://odontoespaco.com.br/wp-content/uploads/2016/03/tratamento-1.jpg'
+        }
+        this.styleClass = {
+            cardProfile: {
+                backgroundColor: 'aliceblue',
+                height: '70%'
+            }
+        }
     }
 
     render(){
+        const classes = this.styleClass;
         return(
-            <Card>
+            <Card style={classes.cardProfile}>
                 <CardContent>
-                    <div>
-                        <span>Main Painel Works!!!</span>
+                    <div className="user-container">
+                        <div className="user-photo-structure">
+                            <img className="user-photo" src={this.userPhoto.url} />
+                        </div>
+                        <span className="user-name">Melissa Alcantara</span>
                     </div>
                 </CardContent>
             </Card>

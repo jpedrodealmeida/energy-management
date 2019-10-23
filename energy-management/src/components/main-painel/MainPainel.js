@@ -23,10 +23,11 @@ class MainPainel extends Component{
             },
             userName: {
                 color: "#00000066",
-                textAlign: "initial"
+                textAlign: "initial",
+                fontSize: '24px'
             },
-            textField: {
-                
+            cardPanel: {
+                boxShadow: 'none'
             }
         }
     }
@@ -35,10 +36,10 @@ class MainPainel extends Component{
     render(){
         const classes = this.styleClass;
         return (
-            <Card>
+            <Card style={classes.cardPanel}>
                 <CardContent>
                     <div className="title-card-structure">
-                        <span style={classes.userName}>Hello Johnn</span>
+                        <span style={classes.userName}>Hello, Melissa</span>
                         <div className="button-structure">
                             <Button style={classes.button}>
                                 SAVE CHANGES
@@ -53,16 +54,16 @@ class MainPainel extends Component{
                             </span>
                             <div className="input-structure">
                                 <div className="input-up-value" >
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
                                 </div>
                                 <div className="input-up-value" >
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
-                                    <TextField id="outlined-bare" style={classes.textField} margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
+                                    <TextField id="outlined-bare" margin="normal" variant="outlined" />
                                 </div>
                             </div>
                         </div>
